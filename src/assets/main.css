@@ -1,4 +1,7 @@
-@import './base.css';
+@import '@/assets/base.css';
+@import '@/assets/standards.scss';
+@import '@/assets/tile_card.scss';
+
 
 #app {
   max-width: 1280px;

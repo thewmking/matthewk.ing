@@ -1,0 +1,29 @@
+@use '@/assets/standards.scss';
+
+.tile-card {
+  padding: 2rem 3.5rem;
+  min-height: auto;
+  background: transparent;
+  border-radius: 1.5rem;
+  // border: 1px solid standards.$teal-muted;
+  position: relative;
+  margin: 20px;
+}
+
+.tile-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 1.5rem; 
+  padding: 1px; 
+  background: linear-gradient(164deg,
+    standards.$bg-bold 0%,
+    standards.$bg-muted 42%,
+    standards.$teal-muted 80%,
+    standards.$teal-bold 100%);
+  -webkit-mask: 
+     linear-gradient(#fff 0 0) content-box, 
+     linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude; 
+}

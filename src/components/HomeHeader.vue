@@ -3,5 +3,7 @@
 </script>
 
 <template>
-  <h1>Header goes here</h1>
+  <h1>Matthew King</h1>
+  <h3>Subheading</h3>
+
 </template>

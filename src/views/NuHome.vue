@@ -1,5 +1,7 @@
 <script setup>
 import HomeHeader from '@/components/HomeHeader.vue';
+import BioCard from '@/components/BioCard.vue';
+import ExpCard from '@/components/ExpCard.vue';
 
 
 </script>
@@ -7,5 +9,10 @@ import HomeHeader from '@/components/HomeHeader.vue';
 <template>
   <main>
     <HomeHeader />
+    <section class="cards">
+      <BioCard />
+      <ExpCard />
+    </section>
+
   </main>
 </template>

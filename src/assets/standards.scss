@@ -1,0 +1,14 @@
+$bg-dark: #362543;
+$bg-bold: #6C22A6;
+$bg-muted: #6962AD;
+$teal-muted: #83C0C1;
+$teal-bold: #96E9C6;
+
+body {
+  background: $bg-dark;
+  // background: linear-gradient(164deg,
+  //   $bg-bold 0%,
+  //   $bg-muted 42%,
+  //   $teal-muted 80%,
+  //   $teal-bold 100%);
+}
