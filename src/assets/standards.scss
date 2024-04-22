@@ -1,14 +1,30 @@
 $bg-dark: #362543;
-$bg-bold: #6C22A6;
-$bg-muted: #6962AD;
-$teal-muted: #83C0C1;
-$teal-bold: #96E9C6;
+$bg-bold: #6c22a6;
+$bg-muted: #6962ad;
+$teal-muted: #83c0c1;
+$teal-bold: #96e9c6;
+
+/* SCSS HEX */
+$gunmetal: #242f33ff;
+$indigo-dye: #364763ff;
+$yinmn-blue: #445475ff;
+$salmon-pink: #fd7f97ff;
+$sandy-orange: #feac71ff;
+$light-grey: #ecebeb;
+$white: #fefeff;
 
 body {
-  background: $bg-dark;
+  background: $gunmetal;
   // background: linear-gradient(164deg,
   //   $bg-bold 0%,
   //   $bg-muted 42%,
   //   $teal-muted 80%,
   //   $teal-bold 100%);
+  background: linear-gradient(
+    164deg,
+    $indigo-dye 0%,
+    $yinmn-blue 42%,
+    $salmon-pink 80%,
+    $sandy-orange 100%
+  );
 }

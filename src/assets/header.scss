@@ -1,0 +1,29 @@
+@use '@/assets/standards.scss';
+
+header.app-header {
+  display: flex;
+  justify-content: center;
+
+  .header-inner {
+    h1 {
+      font-weight: 600;
+      text-align: center;
+      font-size: 6rem;
+      // color: standards.$salmon-pink;
+      background: linear-gradient(
+        164deg,
+        standards.$sandy-orange 0%,
+        standards.$salmon-pink 75%,
+        standards.$yinmn-blue 100%
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    h3 {
+      text-align: center;
+      font-weight: 500;
+      color: standards.$light-grey;
+    }
+  }
+}

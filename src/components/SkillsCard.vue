@@ -3,7 +3,7 @@ import TileCard from '@/components/TileCard.vue'
 </script>
 
 <template>
-  <TileCard title="Experience">
+  <TileCard title="Skills">
     <template #body>
       <h3>Positions:</h3>
       <ul>
