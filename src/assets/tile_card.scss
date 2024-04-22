@@ -39,3 +39,15 @@
   -webkit-mask-composite: xor;
   mask-composite: exclude;
 }
+
+@media (max-width: 768px) {
+  .tile-card-wrapper {
+    grid-template-columns: 1fr;
+
+    .tile-card {
+      margin: 0;
+      margin-bottom: 15px;
+      padding: 1.5rem;
+    }
+  }
+}

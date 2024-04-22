@@ -24,6 +24,21 @@ header.app-header {
       text-align: center;
       font-weight: 500;
       color: standards.$light-grey;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  header.app-header {
+    .header-inner {
+      h1 {
+        font-size: 2.5rem;
+      }
+
+      h3 {
+        font-size: 0.9rem;
+      }
     }
   }
 }

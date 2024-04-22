@@ -7,14 +7,14 @@ import TileCard from '@/components/TileCard.vue'
     <template #body>
       <h3>Positions:</h3>
       <ul>
-        <li>
-          <span>icon here</span>
-          Launch Labs:
-          <span>Senior Software Engineer</span>
-        </li>
-        <li>ASMBL</li>
-        <li>Sokal</li>
-        <li>Webstreak</li>
+        <li>Ruby - 5</li>
+        <li>Ruby on Rails - 5</li>
+        <li>Javascript - 5</li>
+        <li>Vue.js - 5</li>
+        <li>React.js - 3</li>
+        <li>AWS - 3</li>
+        <li>PostgreSQL - 4</li>
+        <li>Nginx - 3</li>
       </ul>
     </template>
   </TileCard>
