@@ -4,6 +4,17 @@ import TileCard from '@/components/TileCard.vue'
 
 <template>
   <TileCard title="Portfolio">
-    <template #body> portfolio links go here </template>
+    <template #body>
+      <ul>
+        <li>
+          <a href="https://github.com/thewmking/emerald">Emerald</a>: Vue SPA + Rails API backend
+          monolith template
+        </li>
+        <li>
+          <a href="https://thewmking.itch.io/dragon-attack">Dragon Attack</a>: demo game built with
+          <a href="https://dragonruby.org/">DragonRuby</a>
+        </li>
+      </ul>
+    </template>
   </TileCard>
 </template>
