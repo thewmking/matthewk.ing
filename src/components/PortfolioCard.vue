@@ -1,5 +1,5 @@
 <script setup>
-import TileCard from '@/components/TileCard.vue'
+import TileCard from '@/components/TileCard.vue';
 </script>
 
 <template>
@@ -11,8 +11,8 @@ import TileCard from '@/components/TileCard.vue'
           monolith template
         </li>
         <li>
-          <a href="https://thewmking.itch.io/dragon-attack">Dragon Attack</a>: demo game built with
-          <a href="https://dragonruby.org/">DragonRuby</a>
+          <a href="https://thewmking.itch.io/dragon-attack">Dragon Attack</a>: 2D sidescroller demo
+          game built with <a href="https://dragonruby.org/">DragonRuby</a> framework
         </li>
       </ul>
     </template>
