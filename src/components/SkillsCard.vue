@@ -1,8 +1,10 @@
 <script setup>
 import TileCard from '@/components/TileCard.vue';
 import SkillIcon from '@/components/SkillIcon.vue';
+import ProgressBar from '@/components/ProgressBar.vue';
 
 import awsIcon from '@/assets/icons/aws.png';
+import cssIcon from '@/assets/icons/css.png';
 import jsIcon from '@/assets/icons/js.png';
 import nginxIcon from '@/assets/icons/nginx.png';
 import postgresIcon from '@/assets/icons/postgres.png';
@@ -16,49 +18,55 @@ const skillItems = [
     name: 'Ruby',
     score: 5,
     icon: rubyIcon,
-    hex: '',
+    hex: '#a70900',
   },
   {
     name: 'Ruby on Rails',
     score: 5,
     icon: railsIcon,
-    hex: '',
+    hex: '#cc0000',
   },
   {
     name: 'Javascript',
     score: 5,
     icon: jsIcon,
-    hex: '',
+    hex: '#f1dc4e',
   },
   {
     name: 'Vue.js',
     score: 5,
     icon: vueIcon,
-    hex: '',
+    hex: '#41b883',
+  },
+  {
+    name: 'CSS',
+    score: 5,
+    icon: cssIcon,
+    hex: '#2465f2',
   },
   {
     name: 'PostgreSQL',
     score: 4,
     icon: postgresIcon,
-    hex: '',
+    hex: '#306793',
   },
   {
     name: 'React JS',
     score: 3,
     icon: reactIcon,
-    hex: '',
+    hex: '#61dbfc',
   },
   {
     name: 'AWS',
     score: 3,
     icon: awsIcon,
-    hex: '',
+    hex: '#ff9a01',
   },
   {
     name: 'nginx',
     score: 3,
     icon: nginxIcon,
-    hex: '',
+    hex: '#049535',
   },
 ];
 </script>
@@ -66,12 +74,15 @@ const skillItems = [
 <template>
   <TileCard title="Skills">
     <template #body>
-      <h3>Positions:</h3>
-      <ul>
+      <ul class="skills-list">
         <li v-for="item in skillItems" :key="item.name" class="skill-item">
           <SkillIcon :icon-src="item.icon" />
-          <span class="skill-item-name">{{ item.name }}</span>
-          <div class="skill-item-score">{{ item.score }}</div>
+          <div class="skill-item-info">
+            <span class="skill-item-name">{{ item.name }}</span>
+            <div class="skill-item-score">
+              <ProgressBar :max="5" :progress="item.score" :hex-code="item.hex" />
+            </div>
+          </div>
         </li>
       </ul>
     </template>

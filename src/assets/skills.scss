@@ -1,3 +1,47 @@
-.skill-icon-wrapper img {
-  width: 55px;
+@use '@/assets/standards.scss';
+
+.skill-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 85px;
+  height: 85px;
+  border-radius: 1rem;
+  box-shadow: 0 0 14px standards.$light-grey;
+
+  img {
+    max-width: 55px;
+    max-height: 55px;
+  }
+}
+
+ul.skills-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+
+  li.skill-item {
+    border-bottom: 1px solid standards.$light-grey;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    display: flex;
+
+    &:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    .skill-item-info {
+      display: flex;
+      flex-direction: column;
+      margin-left: 10px;
+      justify-content: center;
+      flex-grow: 1;
+
+      .skill-item-name {
+        font-weight: 600;
+      }
+    }
+  }
 }
