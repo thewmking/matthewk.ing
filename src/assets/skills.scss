@@ -1,20 +1,5 @@
 @use '@/assets/standards.scss';
 
-.skill-icon-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 85px;
-  height: 85px;
-  border-radius: 1rem;
-  box-shadow: 0 0 14px standards.$light-grey;
-
-  img {
-    max-width: 55px;
-    max-height: 55px;
-  }
-}
-
 ul.skills-list {
   list-style: none;
   padding: 0;
