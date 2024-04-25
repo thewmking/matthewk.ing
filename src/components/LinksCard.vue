@@ -6,12 +6,12 @@ import LinkedinLogo from '@/assets/icons/LinkedinLogo.vue';
 const links = [
   {
     href: 'https://github.com/thewmking',
-    component: GithubLogo
+    component: GithubLogo,
   },
   {
     href: 'https://www.linkedin.com/in/the-matthew-king/',
-    component: LinkedinLogo
-  }
+    component: LinkedinLogo,
+  },
 ];
 </script>
 
@@ -35,6 +35,8 @@ const links = [
 
 .icon-link {
   display: block;
-  width: 75px;
+  width: 90px;
+  padding: 10px 13px;
+  border-radius: 15px;
 }
 </style>
