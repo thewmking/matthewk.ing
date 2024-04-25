@@ -1,6 +1,6 @@
 <script setup>
 import TileCard from '@/components/TileCard.vue';
-import SkillIcon from '@/components/SkillIcon.vue';
+import LogoIcon from '@/components/LogoIcon.vue';
 import ProgressBar from '@/components/ProgressBar.vue';
 
 import awsIcon from '@/assets/icons/aws.png';
@@ -51,16 +51,16 @@ const skillItems = [
     hex: '#306793',
   },
   {
+    name: 'AWS',
+    score: 3.5,
+    icon: awsIcon,
+    hex: '#ff9a01',
+  },
+  {
     name: 'React JS',
     score: 3,
     icon: reactIcon,
     hex: '#61dbfc',
-  },
-  {
-    name: 'AWS',
-    score: 3,
-    icon: awsIcon,
-    hex: '#ff9a01',
   },
   {
     name: 'nginx',
@@ -76,7 +76,7 @@ const skillItems = [
     <template #body>
       <ul class="skills-list">
         <li v-for="item in skillItems" :key="item.name" class="skill-item">
-          <SkillIcon :icon-src="item.icon" />
+          <LogoIcon :icon-src="item.icon" />
           <div class="skill-item-info">
             <span class="skill-item-name">{{ item.name }}</span>
             <div class="skill-item-score">

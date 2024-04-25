@@ -1,8 +1,10 @@
 @import '@/assets/base.css';
 @import '@/assets/standards.scss';
 @import '@/assets/header.scss';
+@import '@/assets/logo_icons.scss';
 @import '@/assets/progress.scss';
 @import '@/assets/skills.scss';
+@import '@/assets/experience.scss';
 @import '@/assets/tile_card.scss';
 
 #app {
