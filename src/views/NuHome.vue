@@ -1,6 +1,7 @@
 <script setup>
 import HomeHeader from '@/components/HomeHeader.vue';
 import BioCard from '@/components/BioCard.vue';
+import EdCard from '@/components/EdCard.vue';
 import ExpCard from '@/components/ExpCard.vue';
 import LinksCard from '@/components/LinksCard.vue';
 import PortfolioCard from '@/components/PortfolioCard.vue';
@@ -14,8 +15,9 @@ import SkillsCard from '@/components/SkillsCard.vue';
       <BioCard />
       <PortfolioCard />
       <ExpCard />
-      <SkillsCard />
       <LinksCard />
+      <EdCard />
+      <SkillsCard />
     </section>
   </main>
 </template>
