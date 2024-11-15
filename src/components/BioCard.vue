@@ -1,17 +1,38 @@
 <script setup>
 import TileCard from '@/components/TileCard.vue'
+import avatar from '@/assets/icons/avatar.png';
 </script>
 
 <template>
   <TileCard title="Bio">
     <template #body>
-      <!-- TODO: replace this. -->
-      However, she mistook the drowsy eye alcohol warning for a winking eye alcohol suggestion.
-      What's up, fizz-ellas. Well, I hope you also carry a spare bowl of candy beans. Annhog's
-      coming? It's, like, Hey, you want to go down to the whirlpool? Yeah, I don't have a husband. I
-      call it Swing City. First I blow him, then I poke him. Te quiero. English, please. I love you!
-      Great, now I'm late. Ah, it is a rock, though. Should beat everything. Gob: There's not a lot
-      of logic to it.
+      <div class="bio-section">
+        <div class="bio-photo-wrapper">
+          <img class="bio-photo" :src="avatar" />
+        </div>
+        <p class="bio-text">
+          I'm a Raleigh, NC native with a background in digital marketing and a passion for solving puzzles with code. 
+          You can find me working all over the stack, from front-end to back-end, as a product owner, manager, or individual contributor.
+          I've worked modernizing legacy systems, building new products from scratch, and everything in between.
+          I'm a big fan of Vue.js and Rails, but I'm always looking to learn new things and expand my skillset.
+          I'm currently building ad tech of the future at Launch Labs.
+        </p>
+      </div>
     </template>
   </TileCard>
 </template>
+
+<style scoped>
+.bio-photo-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.bio-photo {
+  background-color: #f0f0f0;
+  border-radius: 50%;
+  height: 200px;
+  margin: 0 auto;
+  width: 200px;
+}
+</style>
