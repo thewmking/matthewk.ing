@@ -13,8 +13,8 @@ import SkillsCard from '@/components/SkillsCard.vue';
     <HomeHeader />
     <section class="tile-card-wrapper">
       <BioCard />
-      <PortfolioCard />
       <ExpCard />
+      <PortfolioCard />
       <LinksCard />
       <EdCard />
       <SkillsCard />

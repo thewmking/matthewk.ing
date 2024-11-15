@@ -11,14 +11,14 @@ const edItems = [
     link: 'https://www.ncsu.edu/',
     program: 'Communication Media & Business Administration',
     icon: ncsuIcon,
-    dates: '2009-2013',
+    dates: '2009 - 2013',
   },
   {
     name: 'The Odin Project',
     link: 'https://www.theodinproject.com/',
     program: 'Full Stack Rails + JS Curriculum',
     icon: odinIcon,
-    dates: '2016-2017',
+    dates: '2016 - 2017',
   },
 ];
 </script>

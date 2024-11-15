@@ -7,9 +7,6 @@ import launchlabsIcon from '@/assets/icons/launchlabs.png';
 import sokalIcon from '@/assets/icons/sokal.png';
 import webstreakIcon from '@/assets/icons/webstreak.png';
 
-import ncsuIcon from '@/assets/icons/ncsu.png';
-import odinIcon from '@/assets/icons/odin.png';
-
 const expItems = [
   {
     name: 'Launch Labs',
@@ -23,37 +20,20 @@ const expItems = [
     link: 'https://assembleinc.com/',
     role: 'Software Engineer',
     icon: assembleIcon,
-    dates: '2020-2024',
+    dates: '2020 - 2024',
   },
   {
     name: 'Sokal',
-    link: 'https://gosokal.com.com/',
+    link: 'https://gosokal.com/',
     role: 'Software Development Manager',
     icon: sokalIcon,
-    dates: '2019-2020',
+    dates: '2019 - 2020',
   },
   {
     name: 'Webstreak (merged with Sokal)',
     role: 'Full Stack Developer',
     icon: webstreakIcon,
-    dates: '2017-2019',
-  },
-];
-
-const edItems = [
-  {
-    name: 'NC State University',
-    link: 'https://www.ncsu.edu/',
-    program: 'Communication Media & Business Administration',
-    icon: ncsuIcon,
-    dates: '2009-2013',
-  },
-  {
-    name: 'The Odin Project',
-    link: 'https://www.theodinproject.com/',
-    program: 'Full Stack Rails + JS Curriculum',
-    icon: odinIcon,
-    dates: '2016-2017',
+    dates: '2017 - 2019',
   },
 ];
 </script>
