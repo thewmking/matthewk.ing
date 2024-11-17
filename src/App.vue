@@ -1,8 +1,9 @@
 <script setup>
+import AppHome from '@/views/AppHome.vue';
 </script>
 
 <template>
-  <RouterView />
+  <AppHome />
 </template>
 
 <style scoped>
