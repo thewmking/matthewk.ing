@@ -20,7 +20,7 @@ body {
 
 @font-face {
   font-family: "Monaspace Krypton";
-  src: url("@/assets/fonts/Monaspace-Krypton-Bold.woff2") format("woff2");
+  src: url("@/assets/fonts/MonaspaceKrypton-Bold.woff") format("woff");
 }
 
 body {
