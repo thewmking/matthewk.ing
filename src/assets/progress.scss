@@ -1,0 +1,19 @@
+@use '@/assets/standards.scss';
+
+.progress-bar-wrapper {
+  margin: 5px 0;
+  height: 20px;
+  width: 100%;
+
+  .progress-bar-full {
+    background: standards.$light-grey;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    overflow: clip;
+
+    .progress-bar-inner {
+      height: 100%;
+    }
+  }
+}
